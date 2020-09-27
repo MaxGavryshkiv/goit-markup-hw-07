@@ -1,0 +1,47 @@
+.team-name {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team-text {
+  font-size: 16px;
+  line-height: 1.19;
+  text-align: center;
+}
+
+.team__socialnetworks-list {
+  display: flex;
+  justify-content: center;
+}
+
+.list-item:not(:last-child) {
+  margin-right: 10px;
+}
+
+.list__item-link {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 44px;
+  height: 44px;
+  background-color: transparent;
+  border-radius: 50%;
+}
+
+.list__item-link:hover,
+.list__item-link:focus {
+  background-color: $accent-color;
+}
+
+.list__item-icon {
+  width: 20px;
+  height: 20px;
+  fill: $social-color;
+}
+
+.list__item-link:hover .list__item-icon,
+.list__item-link:focus .list__item-icon {
+  fill: $primary-white-color;
+}

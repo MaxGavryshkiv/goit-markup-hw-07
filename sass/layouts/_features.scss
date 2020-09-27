@@ -1,0 +1,22 @@
+.features {
+  padding-top: 94px;
+  background-color: $primary-white-color;
+}
+
+.features-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.features-item {
+  width: calc((100% - 30px * 3) / 4);
+  margin-right: 30px;
+  margin-bottom: 30px;
+}
+
+.features-item:nth-child(4n) {
+  margin-right: 0;
+}
+.features-item:nth-last-child(-n + 4) {
+  margin-bottom: 0;
+}

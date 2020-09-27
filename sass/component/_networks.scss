@@ -1,0 +1,19 @@
+.footer__networks-title {
+  color: $primary-white-color;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  margin-top: 0;
+  margin-bottom: 20px;
+}
+
+.footer__networks-list-item-link:hover,
+.footer__networks-list-item-link:focus {
+  background-color: $accent-color;
+}
+.footer__networks-list-item-link:hover .footer__networks-list-item-link-icon,
+.footer__networks-list-item-link:focus .footer__networks-list-item-link-icon {
+  fill: $primary-white-color;
+}
