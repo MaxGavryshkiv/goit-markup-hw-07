@@ -3,11 +3,13 @@
   padding-bottom: 24px;
   background-color: $primary-white-color;
   border-bottom: 1px solid #ececec;
+
+  & .flexbox {
+    justify-content: flex-end;
+    align-items: center;
+  }
 }
-.header .flexbox {
-  justify-content: flex-end;
-  align-items: center;
-}
+
 .flexbox {
   display: flex;
 }

@@ -1,4 +1,4 @@
-.footer__networks-title {
+.footer-networks-title {
   color: $primary-white-color;
   font-weight: 700;
   font-size: 14px;
@@ -9,11 +9,11 @@
   margin-bottom: 20px;
 }
 
-.footer__networks-list-item-link:hover,
-.footer__networks-list-item-link:focus {
+.footer-networks-list-item-link:hover,
+.footer-networks-list-item-link:focus {
   background-color: $accent-color;
 }
-.footer__networks-list-item-link:hover .footer__networks-list-item-link-icon,
-.footer__networks-list-item-link:focus .footer__networks-list-item-link-icon {
+.footer-networks-list-item-link:hover .footer-networks-list-item-link-icon,
+.footer-networks-list-item-link:focus .footer-networks-list-item-link-icon {
   fill: $primary-white-color;
 }

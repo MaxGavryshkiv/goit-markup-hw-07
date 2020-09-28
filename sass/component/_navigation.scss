@@ -1,25 +1,25 @@
 .navigation-list {
   display: flex;
   align-items: center;
-}
 
-.navigation__list-item:not(:last-child) {
-  margin-right: 50px;
-}
+  &-item:not(:last-child) {
+    margin-right: 50px;
+  }
 
-.navigation-list .item-link {
-  color: $title-text-color;
-  font-weight: 500;
-  font-size: 14px;
-  line-height: 1.14;
-  letter-spacing: 0.02em;
-}
+  & .item-link {
+    color: $title-text-color;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+  }
 
-.navigation-list .item-link:hover,
-.navigation-list .item-link:focus {
-  color: $accent-color;
-}
+  & .item-link:hover,
+  & .item-link:focus {
+    color: $accent-color;
+  }
 
-.navigation-list .item-link.current {
-  color: $accent-color;
+  & .item-link.current {
+    color: $accent-color;
+  }
 }

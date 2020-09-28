@@ -1,25 +1,25 @@
 .employment {
   background-color: $primary-white-color;
-}
-.employment .section-title {
-  margin-bottom: 50px;
-}
+  & .section-title {
+    margin-bottom: 50px;
+  }
 
-.employment-list {
-  display: flex;
-  flex-wrap: wrap;
-}
+  &-list {
+    display: flex;
+    flex-wrap: wrap;
+  }
 
-.employment__list-item {
-  width: calc((100% - 30px * 2) / 3);
-  margin-right: 30px;
-  margin-bottom: 30px;
-}
+  &-list-item {
+    width: calc((100% - 30px * 2) / 3);
+    margin-right: 30px;
+    margin-bottom: 30px;
+  }
 
-.employment__list-item:nth-child(3n) {
-  margin-right: 0;
-}
+  &-list-item:nth-child(3n) {
+    margin-right: 0;
+  }
 
-.employment__list-item:nth-last-child(-n + 3) {
-  margin-bottom: 0;
+  &-list-item:nth-last-child(-n + 3) {
+    margin-bottom: 0;
+  }
 }
